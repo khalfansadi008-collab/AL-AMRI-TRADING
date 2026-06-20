@@ -3,184 +3,541 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Al Amri Trading Company LLC | Electrical Materials Abu Dhabi</title>
-
-<meta name="description" content="Al Amri Trading Company LLC - Musaffah M-9 Abu Dhabi. Electrical, Plumbing & Industrial Materials. Schneider, Hager, ABB, MK, DUCAB, Atlas, RAK. 35 Years Trusted Trading House.">
-<meta name="keywords" content="electrical materials abu dhabi, schneider mcb mccb rcbo rcd, hager db, abb industrial, mk switches, ducab cables, manhole covers 60x60 abu dhabi">
-
+<title>Al Amri Trading Company LLC | Electrical, Plumbing &amp; Industrial Materials — Abu Dhabi</title>
+<meta name="description" content="Al Amri Trading Company LLC - Wholesale &amp; Retail supplier of Electrical, Plumbing &amp; Industrial Materials in Musaffah M-9, Abu Dhabi since 1991. DUCAB, Schneider, Hager, MK, ABB, Decoduct, Wefatherm, RAK, Atlas Pipes, KDK Fans, Cellpack Joints — genuine brands, fair prices.">
+<meta name="keywords" content="electrical materials abu dhabi, ducab cables, schneider switchgear, hager db, ppr pipes uae, musaffah trading company, manhole covers abu dhabi, kdk exhaust fan uae, decoduct cable management, cat6 cable schneider">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
 <style>
-body{margin:0;font-family:Poppins;background:#071522;color:#E7EDF2}
-a{text-decoration:none;color:inherit}
+  :root{
+    --ink:#0B1F18;
+    --ink-alt:#102822;
+    --cream:#F7F3EA;
+    --card-light:#FFFFFF;
+    --card-light-border:#E4DCC8;
+    --emerald:#1F5C45;
+    --brass:#B8863B;
+    --brass-soft:#E8C77E;
+    --teal:#2C6E8E;
+    --whatsapp:#25D366;
+    --text-dark:#142019;
+    --text-dim-light:#5B6760;
+    --text-cream:#F2EFE6;
+    --text-dim-dark:#9FB3A8;
+    --radius:12px;
+    --shadow-light:0 10px 24px rgba(20,32,25,0.10);
+    --shadow-dark:0 10px 26px rgba(0,0,0,0.40);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--cream); color:var(--text-dark); font-family:'Poppins',Arial,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased;}
+  h1,h2,h3{margin:0; font-weight:700;}
+  a{color:inherit; text-decoration:none;}
+  img,svg{display:block;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 24px;}
+  section{padding:70px 0;}
+  @media (max-width:720px){ section{padding:48px 0;} }
+  a:focus-visible, button:focus-visible{outline:3px solid var(--brass); outline-offset:2px;}
 
-.wrap{max-width:1100px;margin:auto;padding:0 20px}
+  /* ---------- top contact bar ---------- */
+  .topbar{background:linear-gradient(90deg, #0D2A21, #143A2C, #0D2A21); border-bottom:2px solid var(--brass); padding:10px 0;}
+  .topbar .row{display:flex; gap:26px; flex-wrap:wrap; justify-content:center; align-items:center;}
+  .tc-item{display:flex; align-items:center; gap:8px; padding:5px 12px; border-radius:20px; animation:pillGlow 6s ease-in-out infinite;}
+  .tc-item:nth-child(1){animation-delay:0s;}
+  .tc-item:nth-child(2){animation-delay:2s;}
+  .tc-item:nth-child(3){animation-delay:4s;}
+  @keyframes pillGlow{
+    0%, 28%, 100%{background:transparent; box-shadow:none;}
+    8%, 16%{background:rgba(184,134,59,0.20); box-shadow:0 0 16px rgba(184,134,59,0.4);}
+  }
+  .tc-name{font-size:13px; font-weight:600; color:#fff; white-space:nowrap;}
+  .tc-num{font-size:12px; color:var(--brass-soft); white-space:nowrap;}
+  .tc-actions{display:flex; gap:6px;}
+  .tc-btn{width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; background:rgba(255,255,255,0.07); font-size:12px; transition:background .15s, transform .15s;}
+  .tc-btn:hover{background:var(--brass); transform:translateY(-1px);}
+  @media (max-width:600px){ .topbar .row{gap:14px;} .tc-name{display:none;} }
 
-header{padding:18px 0;border-bottom:1px solid #1f3d5a}
-.brand{font-size:20px;font-weight:800;color:#D4AF37}
+  /* ---------- nav ---------- */
+  header.site{position:sticky; top:0; z-index:60; background:linear-gradient(100deg, rgba(13,42,33,0.96), rgba(20,58,44,0.96)); backdrop-filter:blur(6px); border-bottom:1px solid rgba(184,134,59,0.3);}
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:13px 24px; max-width:1180px; margin:0 auto;}
+  .brandmark{display:flex; align-items:center; gap:10px;}
+  .brandmark .name{color:#fff; font-weight:700; font-size:17px; letter-spacing:0.02em;}
+  .brandmark .name small{display:block; font-weight:400; font-size:11px; color:var(--brass-soft);}
+  nav.links{display:flex; gap:26px; align-items:center;}
+  nav.links a{color:#CFE0D8; font-size:14px; font-weight:500; transition:color .15s;}
+  nav.links a:hover{color:var(--brass-soft);}
+  .nav-cta{background:var(--brass); color:var(--ink); padding:9px 18px; border-radius:24px; font-weight:700; font-size:14px; white-space:nowrap; transition:transform .15s, box-shadow .15s;}
+  .nav-cta:hover{transform:translateY(-1px); box-shadow:0 8px 18px rgba(184,134,59,0.4);}
+  .burger{display:none; background:none; border:none; cursor:pointer; padding:6px;}
+  .burger span{display:block; width:24px; height:2px; background:#fff; margin:5px 0;}
+  @media (max-width:880px){ nav.links{display:none;} .burger{display:block;} }
+  .mobile-menu{display:none; flex-direction:column; background:var(--ink-alt); border-top:1px solid rgba(247,243,234,0.10);}
+  .mobile-menu.open{display:flex;}
+  .mobile-menu a{padding:14px 24px; color:#CFE0D8; border-bottom:1px solid rgba(247,243,234,0.10); font-size:15px;}
 
-.hero{
-text-align:center;
-padding:90px 20px;
-background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
-url('https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1600&q=70');
-background-size:cover;background-position:center;
-}
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative; min-height:80vh; display:flex; flex-direction:column; justify-content:center; align-items:center;
+    text-align:center; padding:60px 20px; overflow:hidden;
+    background:linear-gradient(155deg, #0B1F18 0%, #143A2C 55%, #0B1F18 100%);
+  }
+  .hero::before{
+    content:""; position:absolute; inset:0; z-index:0; opacity:0.55;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cpath d='M10 10 H70 V50 H130' stroke='%23B8863B' stroke-width='1.2' fill='none' opacity='0.4'/%3E%3Cpath d='M0 90 H50 V130 H140' stroke='%23B8863B' stroke-width='1.2' fill='none' opacity='0.3'/%3E%3Cpath d='M90 0 V40 H50 V90' stroke='%23B8863B' stroke-width='1.2' fill='none' opacity='0.28'/%3E%3Ccircle cx='70' cy='50' r='2.6' fill='%23B8863B' opacity='0.5'/%3E%3Ccircle cx='10' cy='10' r='2.6' fill='%23B8863B' opacity='0.4'/%3E%3Ccircle cx='50' cy='130' r='2.6' fill='%23B8863B' opacity='0.35'/%3E%3Ccircle cx='90' cy='40' r='2.6' fill='%23B8863B' opacity='0.4'/%3E%3C/svg%3E");
+    background-size:140px 140px;
+  }
+  .hero::after{
+    content:""; position:absolute; z-index:0; top:38%; left:30%; width:680px; height:680px;
+    transform:translate(-50%,-50%); border-radius:50%; pointer-events:none;
+    background:radial-gradient(circle, rgba(184,134,59,0.30), transparent 65%);
+    animation:heroGlow 7s ease-in-out infinite alternate;
+  }
+  .hero .glow2{
+    position:absolute; z-index:0; bottom:-10%; right:5%; width:520px; height:520px;
+    border-radius:50%; pointer-events:none;
+    background:radial-gradient(circle, rgba(44,140,110,0.32), transparent 65%);
+    animation:heroGlow2 9s ease-in-out infinite alternate;
+  }
+  @keyframes heroGlow2{ from{opacity:.45; transform:scale(1);} to{opacity:.9; transform:scale(1.2);} }
+  @keyframes heroGlow{ from{opacity:.5; transform:translate(-50%,-50%) scale(1);} to{opacity:1; transform:translate(-50%,-50%) scale(1.18);} }
+  .hero-inner{position:relative; z-index:1; max-width:760px; color:var(--text-cream);}
+  .hero .kicker{font-size:13px; letter-spacing:0.12em; color:var(--brass-soft); font-weight:600; margin-bottom:14px;}
+  .hero h1{font-size:44px; color:var(--brass-soft); letter-spacing:0.01em; margin-bottom:18px;}
+  @supports (background-clip:text) or (-webkit-background-clip:text){
+    .hero h1{
+      background:linear-gradient(100deg,#B8863B 25%,#F1D896 50%,#B8863B 75%);
+      background-size:220% auto; -webkit-background-clip:text; background-clip:text; color:transparent;
+      animation:shimmer 6s linear infinite;
+    }
+  }
+  @keyframes shimmer{ to{background-position:220% center;} }
+  @media (max-width:720px){ .hero h1{font-size:30px;} }
+  .hero p.lead{font-size:17px; color:#D8E3DC; max-width:600px; margin:0 auto 30px;}
+  .cta-row{display:flex; gap:14px; flex-wrap:wrap; justify-content:center; margin-bottom:30px;}
+  .btn{display:inline-flex; align-items:center; gap:8px; padding:13px 24px; border-radius:30px; font-weight:600; font-size:15px; transition:transform .15s, box-shadow .15s;}
+  .btn-whatsapp{background:var(--whatsapp); color:#fff;}
+  .btn-whatsapp:hover{transform:translateY(-2px); box-shadow:0 10px 20px rgba(37,211,102,0.3);}
+  .btn-call{background:var(--teal); color:#fff;}
+  .btn-call:hover{transform:translateY(-2px); box-shadow:0 10px 20px rgba(44,110,142,0.35);}
+  .btn-sm{padding:9px 16px; font-size:13.5px; border-radius:24px;}
 
-.hero h1{color:#D4AF37;font-size:40px;margin:0}
-.hero p{max-width:700px;margin:15px auto;color:#ddd}
+  .trust-strip{display:flex; gap:12px; flex-wrap:wrap; justify-content:center;}
+  .chip{background:rgba(184,134,59,0.16); border:1px solid rgba(184,134,59,0.4); padding:9px 14px; border-radius:24px; font-size:13px; color:#F2EFE6;}
+  .chip b{color:var(--brass-soft);}
+  .price-banner{display:inline-flex; align-items:center; gap:10px; background:rgba(184,134,59,0.14); border:1px solid rgba(184,134,59,0.45); border-radius:30px; padding:10px 20px; margin-bottom:24px; flex-wrap:wrap; justify-content:center; animation:glowPulse 3s ease-in-out infinite;}
+  .price-banner .big{font-weight:700; color:var(--brass-soft); font-size:14px;}
+  .price-banner .small{font-size:12.5px; color:#D8E3DC;}
+  @keyframes glowPulse{ 0%,100%{box-shadow:0 0 0 0 rgba(184,134,59,0);} 50%{box-shadow:0 0 20px 2px rgba(184,134,59,0.28);} }
 
-.btn{display:inline-block;padding:12px 20px;border-radius:30px;margin:5px;font-weight:600}
-.whatsapp{background:#25D366;color:#fff}
-.call{background:#1E90FF;color:#fff}
+  /* ---------- section heads ---------- */
+  .section-head{max-width:680px; margin:0 auto 40px; text-align:center;}
+  .section-head .kicker{font-size:12.5px; letter-spacing:0.1em; color:var(--brass); font-weight:700; display:block; margin-bottom:10px;}
+  .section-head h2{font-size:30px; color:var(--emerald); margin-bottom:12px;}
+  .section-head p{color:var(--text-dim-light); font-size:15px;}
+  .dark-section .section-head .kicker{color:var(--brass-soft);}
+  .dark-section .section-head h2{color:#fff;}
+  .dark-section .section-head p{color:var(--text-dim-dark);}
 
-.section{padding:60px 0}
-.title{text-align:center;color:#D4AF37;font-size:26px;margin-bottom:30px}
+  /* ---------- brand strip ---------- */
+  .brand-rail{background:linear-gradient(180deg, var(--ink), var(--ink-alt)); padding:42px 0; position:relative; overflow:hidden;}
+  .brand-rail::before{content:""; position:absolute; top:-60px; left:50%; width:400px; height:200px; transform:translateX(-50%); background:radial-gradient(ellipse, rgba(184,134,59,0.15), transparent 70%); pointer-events:none;}
+  .brand-rail .section-head .kicker{color:var(--brass-soft);}
+  .brand-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:14px; position:relative; z-index:1;}
+  .brand-box{background:rgba(247,243,234,0.04); border:1px solid rgba(184,134,59,0.35); border-radius:10px; height:64px; display:flex; align-items:center; justify-content:center; padding:8px; position:relative; overflow:hidden; box-shadow:0 4px 14px rgba(0,0,0,0.25); transition:border-color .2s, transform .2s, background .2s;}
+  .brand-box::after{
+    content:""; position:absolute; top:0; left:-60%; width:40%; height:100%;
+    background:linear-gradient(120deg, transparent, rgba(232,199,126,0.35), transparent);
+    transform:skewX(-20deg); transition:left .5s ease;
+  }
+  .brand-box:hover::after{left:120%;}
+  .brand-box:hover{border-color:var(--brass-soft); background:rgba(184,134,59,0.10); transform:translateY(-3px);}
+  .brand-box img{max-width:100%; max-height:30px; object-fit:contain; filter:brightness(0) invert(1) opacity(0.85);}
+  .brand-box .fallback{font-weight:700; letter-spacing:0.03em; color:var(--brass-soft); font-size:13.5px; text-align:center;}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  /* ---------- product grid (light cards) ---------- */
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
+  .card{
+    position:relative; overflow:hidden;
+    background:var(--card-light); border:1px solid var(--card-light-border); border-radius:var(--radius);
+    padding:26px; box-shadow:var(--shadow-light); transition:transform .25s, border-color .25s;
+  }
+  .card::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:3px;
+    background:linear-gradient(90deg, var(--brass), var(--brass-soft), var(--brass));
+    transform:scaleX(0); transform-origin:left; transition:transform .35s ease;
+  }
+  .card:hover::before{transform:scaleX(1);}
+  .card:hover{transform:translateY(-4px); border-color:var(--brass);}
+  .card h3{font-size:19px; color:var(--emerald); margin-bottom:14px; display:flex; align-items:center; gap:10px;}
+  .card ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:9px;}
+  .card li{font-size:14px; color:var(--text-dim-light); border-bottom:1px dashed var(--card-light-border); padding-bottom:9px;}
+  .card li:last-child{border-bottom:none; padding-bottom:0;}
+  .card li b{color:var(--text-dark);}
+  .card .more{font-size:12.5px; color:var(--brass); font-style:italic; margin:14px 0 0;}
 
-.card{
-background:#102a3d;
-padding:20px;
-border-radius:12px;
-border:1px solid #1f3d5a
-}
+  /* ---------- dark section helper ---------- */
+  .dark-section{background:var(--ink); position:relative; overflow:hidden;}
+  .dark-section::before{content:""; position:absolute; top:-90px; left:-90px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle, rgba(184,134,59,0.14), transparent 70%); pointer-events:none;}
+  .dark-section::after{content:""; position:absolute; bottom:-90px; right:-90px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle, rgba(31,92,69,0.30), transparent 70%); pointer-events:none;}
+  .dark-section .wrap{position:relative; z-index:1;}
+  .dark-section p{color:var(--text-dim-dark);}
 
-.card h3{color:#fff;margin-bottom:10px}
-.card ul{color:#9FB3C2;font-size:14px;padding-left:18px}
+  .about-band p.lead-about{max-width:760px; margin:0 auto; color:#D8E3DC !important; text-align:center; font-size:15.5px;}
 
-.quote{
-background:rgba(212,175,55,.12);
-border:1px solid rgba(212,175,55,.4);
-padding:16px;border-radius:12px;
-text-align:center;margin:20px 0;
-color:#D4AF37;font-weight:600
-}
+  /* ---------- why us ---------- */
+  .why-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:26px;}
+  .why-item{border-top:2px solid var(--brass); padding-top:14px;}
+  .why-item h3{font-size:17px; color:var(--emerald); margin-bottom:6px;}
+  .why-item p{color:var(--text-dim-light); font-size:14px; margin:0;}
 
-.photo{
-height:180px;
-background:#0b1f2e;
-border:1px dashed #2c4a66;
-display:flex;align-items:center;justify-content:center;
-border-radius:12px;
-color:#9FB3C2
-}
+  /* ---------- sales team (dark cards) ---------- */
+  .agent-card{background:var(--ink-alt); border:1px solid rgba(247,243,234,0.12); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow-dark); display:flex; flex-direction:column; gap:14px; align-items:center; text-align:center;}
+  .avatar{width:58px; height:58px; border-radius:50%; background:linear-gradient(155deg,var(--brass),#7d5a26); color:var(--ink); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:19px;}
+  .agent-card h3{font-size:18px; color:#fff;}
+  .agent-card .num{font-size:13.5px; color:var(--brass-soft);}
+  .agent-actions{display:flex; gap:8px; width:100%;}
+  .agent-actions .btn{flex:1; justify-content:center;}
 
-footer{
-text-align:center;
-padding:25px;
-color:#7e8e98;
-font-size:13px;
-border-top:1px solid #1f3d5a
-}
+  /* ---------- visit ---------- */
+  .visit-grid{display:grid; grid-template-columns:1.1fr 1fr; gap:26px; align-items:stretch;}
+  @media (max-width:880px){ .visit-grid{grid-template-columns:1fr;} }
+  .map-frame{border-radius:var(--radius); overflow:hidden; border:1px solid var(--card-light-border); box-shadow:var(--shadow-light); min-height:300px; background:var(--card-light);}
+  .label-card{background:var(--card-light); border:1px solid var(--card-light-border); border-radius:var(--radius); padding:28px; box-shadow:var(--shadow-light);}
+  .label-card .row{display:flex; justify-content:space-between; gap:10px; padding:12px 0; border-bottom:1px solid var(--card-light-border); font-size:14px;}
+  .label-card .row:last-of-type{border-bottom:none;}
+  .label-card .row .k{color:var(--text-dim-light); text-transform:uppercase; font-size:11px; letter-spacing:0.05em;}
+  .label-card .row .v{font-weight:600; color:var(--text-dark); text-align:right;}
+  .label-card .actions{display:flex; gap:10px; margin-top:18px; flex-wrap:wrap;}
+  .note{font-size:12px; color:var(--text-dim-light); margin-top:14px;}
+
+  /* ---------- closing pricing CTA ---------- */
+  .closing-cta{background:linear-gradient(135deg, var(--brass), #8f6526); color:var(--ink); text-align:center;}
+  .closing-cta h2{color:var(--ink); font-size:28px; margin-bottom:10px;}
+  .closing-cta p{color:#2b210f; font-size:15px; max-width:560px; margin:0 auto 26px;}
+  .closing-cta .btn-call{background:var(--ink); color:#fff;}
+  .closing-cta .btn-whatsapp{background:var(--whatsapp); color:#fff;}
+
+  /* ---------- floating contact button ---------- */
+  .float{position:fixed; bottom:20px; right:20px; z-index:999; display:flex; flex-direction:column; gap:10px;}
+  .float a{
+    display:flex; align-items:center; gap:8px; padding:12px 16px; border-radius:30px;
+    font-size:13.5px; font-weight:600; color:#fff; box-shadow:0 8px 18px rgba(0,0,0,0.4);
+    transition:transform .15s;
+  }
+  .float a:hover{transform:scale(1.05);}
+  .float .fw{background:var(--whatsapp); animation:pulseGreen 2.4s ease-in-out infinite;}
+  .float .fc{background:var(--teal);}
+  @keyframes pulseGreen{ 0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,0.55);} 50%{box-shadow:0 0 0 10px rgba(37,211,102,0);} }
+
+  footer{background:var(--ink); text-align:center; padding:26px 20px; font-size:12.5px; color:var(--text-dim-dark);}
+
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:translateY(0);}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1; transform:none; transition:none;}
+    .hero::after, .hero .glow2, .hero h1, .price-banner, .float .fw, .tc-item{animation:none;}
+  }
 </style>
-
 </head>
-
 <body>
 
-<header>
-<div class="wrap">
-<div class="brand">AL AMRI TRADING CO. LLC</div>
+<div class="topbar">
+  <div class="wrap row">
+    <span class="tc-item">
+      <span class="tc-name">Mohammed Sadi</span><span class="tc-num">+971 50 579 7255</span>
+      <span class="tc-actions">
+        <a class="tc-btn" href="tel:+971505797255" aria-label="Call Mohammed Sadi">📞</a>
+        <a class="tc-btn" href="https://wa.me/971505797255" target="_blank" rel="noopener" aria-label="WhatsApp Mohammed Sadi">💬</a>
+      </span>
+    </span>
+    <span class="tc-item">
+      <span class="tc-name">Fahad Jr</span><span class="tc-num">+971 50 298 8193</span>
+      <span class="tc-actions">
+        <a class="tc-btn" href="tel:+971502988193" aria-label="Call Fahad Jr">📞</a>
+        <a class="tc-btn" href="https://wa.me/971502988193" target="_blank" rel="noopener" aria-label="WhatsApp Fahad Jr">💬</a>
+      </span>
+    </span>
+    <span class="tc-item">
+      <span class="tc-name">Munna</span><span class="tc-num">+971 50 491 4381</span>
+      <span class="tc-actions">
+        <a class="tc-btn" href="tel:+971504914381" aria-label="Call Munna">📞</a>
+        <a class="tc-btn" href="https://wa.me/971504914381" target="_blank" rel="noopener" aria-label="WhatsApp Munna">💬</a>
+      </span>
+    </span>
+  </div>
 </div>
+
+<header class="site">
+  <div class="nav">
+    <div class="brandmark">
+      <svg width="40" height="40" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="19" fill="#0B1F18"/>
+        <circle cx="21" cy="21" r="19" fill="none" stroke="#B8863B" stroke-width="1.6"/>
+        <circle cx="21" cy="21" r="14.5" fill="none" stroke="#B8863B" stroke-width="0.8" opacity="0.5"/>
+        <text x="21" y="26.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="800" font-size="13" fill="#F7F3EA">AA</text>
+        <line x1="21" y1="2" x2="21" y2="5" stroke="#B8863B" stroke-width="1.6"/>
+        <line x1="21" y1="37" x2="21" y2="40" stroke="#B8863B" stroke-width="1.6"/>
+        <line x1="2" y1="21" x2="5" y2="21" stroke="#B8863B" stroke-width="1.6"/>
+        <line x1="37" y1="21" x2="40" y2="21" stroke="#B8863B" stroke-width="1.6"/>
+      </svg>
+      <div class="name">Al Amri Trading<small>Wholesale &amp; Retail · Since 1991</small></div>
+    </div>
+    <nav class="links">
+      <a href="#brands">Brands</a>
+      <a href="#products">Products</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <a class="nav-cta" href="tel:+971504914381">📞 Call Us</a>
+    <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#brands">Brands</a>
+    <a href="#products">Products</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+    <a href="#visit">Visit Us</a>
+  </div>
 </header>
 
 <div class="hero">
-<h1>Electrical & Industrial Materials</h1>
-<p>Musaffah M-9, Abu Dhabi — 35 Years Trusted Trading House</p>
-
-<div class="quote">
-“Genuine Brands. Fair Trade Pricing. Professional Quotation Based Supply.”
+  <div class="glow2"></div>
+  <div class="hero-inner">
+    <div class="kicker">MUSAFFAH M-9 · ABU DHABI</div>
+    <h1>AL AMRI TRADING CO. LLC</h1>
+    <p class="lead">For over three decades, we've supplied Abu Dhabi's contractors, shop owners and homeowners with genuine electrical, plumbing &amp; industrial materials, always at a fair price.</p>
+    <div class="price-banner">
+      <span class="big">💰 Best Market Prices</span>
+      <span class="small">on 100% genuine, original brands</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-whatsapp" href="https://wa.me/971504914381" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+      <a class="btn btn-call" href="tel:+971504914381">📞 Call Now</a>
+    </div>
+    <div class="trust-strip">
+      <div class="chip">🏆 <b>Since 1991</b> · 35 Years</div>
+      <div class="chip">📍 Musaffah M-9, Abu Dhabi</div>
+      <div class="chip">🕗 Open today · closes 8:30 PM</div>
+    </div>
+  </div>
 </div>
 
-<a class="btn whatsapp" href="https://wa.me/971504914381">WhatsApp Enquiry</a>
-<a class="btn call" href="tel:+971504914381">Call Now</a>
+<div class="brand-rail" id="brands">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:24px;">
+      <span class="kicker">BRANDS WE STOCK</span>
+    </div>
+    <div class="brand-grid">
+      <!-- To add a real logo: replace src with your logo file path, e.g. src="logos/ducab.png" -->
+      <div class="brand-box"><img src="logos/ducab.png" alt="DUCAB" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">DUCAB</span></div>
+      <div class="brand-box"><img src="logos/hager.png" alt="Hager" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">HAGER</span></div>
+      <div class="brand-box"><img src="logos/schneider.png" alt="Schneider" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">SCHNEIDER</span></div>
+      <div class="brand-box"><img src="logos/mk.png" alt="MK Electric" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">MK ELECTRIC</span></div>
+      <div class="brand-box"><img src="logos/abb.png" alt="ABB" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">ABB</span></div>
+      <div class="brand-box"><img src="logos/atlas.png" alt="Atlas" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">ATLAS</span></div>
+      <div class="brand-box"><img src="logos/rak.png" alt="RAK" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">RAK</span></div>
+      <div class="brand-box"><img src="logos/kdk.png" alt="KDK" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">KDK</span></div>
+      <div class="brand-box"><img src="logos/cellpack.png" alt="Cellpack" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">CELLPACK</span></div>
+      <div class="brand-box"><img src="logos/decoduct.png" alt="Decoduct" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span class="fallback" style="display:none">DECODUCT</span></div>
+    </div>
+  </div>
 </div>
 
-<div class="section">
-<div class="wrap">
-<div class="title">OUR PRODUCTS</div>
+<section id="products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">OUR PRODUCTS</span>
+      <h2>Five counters. One warehouse.</h2>
+      <p>Electrical, plumbing &amp; ventilation — organised by trade. This is only the headline list: ask our counter, we stock far more than what's on this page.</p>
+    </div>
+    <div class="grid">
 
-<div class="grid">
+      <div class="card reveal">
+        <h3>⚡ Electrical Supplies</h3>
+        <ul>
+          <li><b>DUCAB</b> wires &amp; cables — armoured, flexible &amp; building wire</li>
+          <li><b>Hager</b> distribution boards — all pole configurations</li>
+          <li><b>Schneider</b> switchgear — MCB, DB &amp; RCD, complete range</li>
+          <li><b>Schneider</b> Cat6 networking cable</li>
+          <li><b>MK</b> switches &amp; sockets — Logic Plus &amp; Essential range</li>
+          <li><b>ABB</b> isolators — weatherproof, IP65</li>
+          <li><b>Decoduct</b> cable management system — conduit pipes &amp; accessories, 20mm / 25mm / 50mm</li>
+          <li><b>Cellpack</b> cable joints — M-11, M-12, M-13, M-14</li>
+        </ul>
+        <p class="more">+ many more electrical items in stock</p>
+      </div>
 
-<div class="card">
-<h3>Electrical Materials</h3>
-<ul>
-<li>DUCAB Cables (Power & Control Wiring)</li>
-<li>Schneider Electric (MCB, MCCB, RCBO, RCD, Contactors, Relays)</li>
-<li>Hager Distribution Boards</li>
-<li>ABB Industrial Protection Devices</li>
-<li>Industrial Wiring Accessories</li>
-</ul>
-</div>
+      <div class="card reveal">
+        <h3>🚿 Pipes &amp; Fittings</h3>
+        <ul>
+          <li><b>Atlas</b> pipes &amp; fittings — full range, site-ready stock</li>
+          <li>PPR pipes &amp; fittings — <b>Wefatherm</b> &amp; <b>RAK</b>, hot &amp; cold water systems</li>
+        </ul>
+        <p class="more">+ many more plumbing items in stock</p>
+      </div>
 
-<div class="card">
-<h3>Pipes & Plumbing</h3>
-<ul>
-<li>Atlas PVC Pipes & Fittings</li>
-<li>RAK / Wefatherm PPR Systems</li>
-<li>Hot & Cold Water Solutions</li>
-</ul>
-</div>
+      <div class="card reveal">
+        <h3>🧱 Building Materials</h3>
+        <ul>
+          <li>General building materials — ask our counter for full inventory</li>
+          <li>Mixed trade essentials — stocked for fast project turnaround</li>
+        </ul>
+        <p class="more">+ many more items — call to ask</p>
+      </div>
 
-<div class="card">
-<h3>Building Materials</h3>
-<ul>
-<li>General Construction Supplies</li>
-<li>Site Hardware & Consumables</li>
-</ul>
-</div>
+      <div class="card reveal">
+        <h3>🕳️ Manhole Covers</h3>
+        <ul>
+          <li>Cast iron manhole covers — 60x60 standard size</li>
+          <li>Drainage, water, telephone &amp; electrical types</li>
+          <li>Heavy-duty, utility grade — site-ready stock</li>
+        </ul>
+        <p class="more">Standard 60x60 size — call to confirm availability</p>
+      </div>
 
-<div class="card">
-<h3>Manhole Covers</h3>
-<ul>
-<li>Cast Iron Manhole Covers</li>
-<li>ONLY 60x60 Standard Size</li>
-<li>Heavy Duty Utility Grade</li>
-</ul>
-</div>
+      <div class="card reveal">
+        <h3>🌀 Ventilation</h3>
+        <ul>
+          <li><b>KDK</b> exhaust fans — 6" — Normal, Auto Shutter &amp; Duct Fan</li>
+          <li><b>KDK</b> exhaust fans — 8" — Normal, Auto Shutter &amp; Duct Fan</li>
+        </ul>
+        <p class="more">+ more sizes available — call to ask</p>
+      </div>
 
-</div>
+    </div>
+  </div>
+</section>
 
-<div class="quote">
-🔥 All pricing is quotation-based — send your requirement via WhatsApp for best offer
-</div>
+<section class="dark-section about-band">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">ABOUT US</span>
+      <h2>Since 1991.</h2>
+    </div>
+    <p class="reveal lead-about">Since 1991, Al Amri Trading Company LLC has been supplying electrical, plumbing and industrial materials from our counter in Musaffah M-9, Abu Dhabi. Over the years, we've tried to do one thing well — stock genuine, authorised brands and offer them at a fair price, whether you're buying a single switch or fitting out an entire building. We're grateful to every contractor, shop owner and homeowner who has trusted us along the way.</p>
+  </div>
+</section>
 
-</div>
-</div>
+<section id="why">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">WHY CUSTOMERS COME BACK</span>
+      <h2>Stock that's actually on the shelf.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><h3>Genuine brands only</h3><p>DUCAB, Hager, Schneider, MK, ABB, Atlas, RAK, KDK and Cellpack — sourced through authorised channels, not grey market.</p></div>
+      <div class="why-item reveal"><h3>Wholesale &amp; retail</h3><p>Buying one switch or a full DB schedule — same trade pricing, quoted the same day.</p></div>
+      <div class="why-item reveal"><h3>One stop, many trades</h3><p>Electrical, plumbing, manhole covers and ventilation under one roof.</p></div>
+      <div class="why-item reveal"><h3>Since 1991</h3><p>A trusted name in Musaffah for over three decades — wholesale and retail customers alike.</p></div>
+      <div class="why-item reveal"><h3>Fair Market Prices</h3><p>Genuine, original brands at honest, competitive rates around Musaffah.</p></div>
+    </div>
+  </div>
+</section>
 
-<div class="section">
-<div class="wrap">
-<div class="title">UPLOAD PRODUCT PHOTOS</div>
+<section class="dark-section" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">SALES TEAM</span>
+      <h2>Call or WhatsApp directly.</h2>
+      <p>One tap calls or messages our team — no forms, no waiting.</p>
+    </div>
+    <div class="grid">
+      <div class="agent-card reveal">
+        <div class="avatar">MS</div>
+        <div><h3>Mohammed Sadi</h3><div class="num">+971 50 579 7255</div></div>
+        <div class="agent-actions">
+          <a class="btn btn-call btn-sm" href="tel:+971505797255">Call</a>
+          <a class="btn btn-whatsapp btn-sm" href="https://wa.me/971505797255" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="agent-card reveal">
+        <div class="avatar">FJ</div>
+        <div><h3>Fahad Jr</h3><div class="num">+971 50 298 8193</div></div>
+        <div class="agent-actions">
+          <a class="btn btn-call btn-sm" href="tel:+971502988193">Call</a>
+          <a class="btn btn-whatsapp btn-sm" href="https://wa.me/971502988193" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="agent-card reveal">
+        <div class="avatar">M</div>
+        <div><h3>Munna</h3><div class="num">+971 50 491 4381</div></div>
+        <div class="agent-actions">
+          <a class="btn btn-call btn-sm" href="tel:+971504914381">Call</a>
+          <a class="btn btn-whatsapp btn-sm" href="https://wa.me/971504914381" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="grid">
-<div class="photo">Add Photo 1</div>
-<div class="photo">Add Photo 2</div>
-<div class="photo">Add Photo 3</div>
-<div class="photo">Add Photo 4</div>
-</div>
+<section id="visit">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">FIND US</span>
+      <h2>Musaffah M-9, Abu Dhabi.</h2>
+      <p>Walk into the counter or call ahead — we'll have your order staged before you arrive.</p>
+    </div>
+    <div class="visit-grid">
+      <a class="map-frame reveal" href="https://www.google.com/maps/search/?api=1&query=Al+Amri+Trading+Company+Musaffah+M9+Abu+Dhabi" target="_blank" rel="noopener" style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; text-decoration:none;">
+        <div style="font-size:46px;">📍</div>
+        <div style="font-weight:700; font-size:18px; color:var(--brass);">Get Directions</div>
+        <div style="color:var(--text-dim-light); font-size:13.5px; text-align:center; padding:0 24px;">Tap to open Al Amri Trading Co. in Google Maps</div>
+      </a>
+      <div class="label-card reveal">
+        <div class="row"><span class="k">Company</span><span class="v">Al Amri Trading Co. LLC</span></div>
+        <div class="row"><span class="k">Location</span><span class="v">Musaffah M-9, Abu Dhabi</span></div>
+        <div class="row"><span class="k">Hours</span><span class="v">Open today · closes 8:30 PM</span></div>
+        <div class="row"><span class="k">Experience</span><span class="v">Since 1991 · 35 Years</span></div>
+        <div class="actions">
+          <a class="btn btn-call" href="tel:+971504914381">Call Now</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/971504914381" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <p class="note">Hours shown reflect today's listing — replace with your full weekly schedule (Sat–Thu / Friday) before publishing.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
-</div>
+<section class="closing-cta">
+  <div class="wrap">
+    <h2>Need a Quote?</h2>
+    <p>Genuine brands, fair prices — tell us what you need and we'll get back to you the same day.</p>
+    <div class="cta-row">
+      <a class="btn btn-whatsapp" href="https://wa.me/971504914381" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+      <a class="btn btn-call" href="tel:+971504914381">📞 Call Now</a>
+    </div>
+  </div>
+</section>
 
-<div class="section">
-<div class="wrap">
-<div class="title">WHY CHOOSE US</div>
-
-<div class="grid">
-<div class="card">35 Years Trusted Trading Experience</div>
-<div class="card">Only Genuine Approved Brands</div>
-<div class="card">Fast WhatsApp Quotation Response</div>
-<div class="card">Contractor Friendly Pricing</div>
-</div>
-
-</div>
+<div class="float">
+  <a class="fw" href="https://wa.me/971504914381" target="_blank" rel="noopener">💬 WhatsApp</a>
+  <a class="fc" href="tel:+971504914381">📞 Call</a>
 </div>
 
 <footer>
-© 2026 Al Amri Trading Company LLC | Musaffah M-9, Abu Dhabi
+  © <span id="yr"></span> Al Amri Trading Company LLC | Musaffah M-9, Abu Dhabi · Wholesale &amp; Retail · Since 1991
 </footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const burger = document.getElementById('burgerBtn');
+  const menu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', () => {
+    const open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    menu.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+  }));
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>
